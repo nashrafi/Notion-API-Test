@@ -28,4 +28,13 @@ app.post("/submit-form", async (req, res) => {
   res.end();
 });
 
+// $.ajax({
+// type: 'POST',
+//     url: "http://localhost:8000/", 
+//     data: "/users",
+//     success: function(res) {
+//             $('#userContainer').html(res).delay(2000);
+//     }
+// });     
+
 app.listen(port, console.log(`Server started on ${port}`));

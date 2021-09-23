@@ -38,5 +38,56 @@
       <button id="newUserButton">Add a new user</button>
       
       <script type="module" src="./main.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- $.ajax({
+type: 'POST',
+    url: post_url, 
+    data: post_data,
+    success: function(res) {
+            $('#event').html(res).delay(2000);
+    }
+}); -->
   </body>
+  <!-- <script>
+    setTimeout(function(){
+      window.location.reload(1);
+    }, 5000);
+  </script> -->
+
+  <!-- <script type="text/javascript">
+    var data = {
+        username: ${value.name},
+        password: ${value.role}
+      };
+    $.ajax({
+      type: 'POST',
+          url: "http://localhost:8000/", 
+          data: data,
+          success: function(res) {
+                  $('#container').html(res).delay(2000);
+          }
+      });
+  </script> -->
+
+<!-- <script type="text/javascript">
+  $('#myForm').on('submit', function (event) {
+    event.preventDefault(); // Stop the form from causing a page refresh.
+    var data = {
+      username: $('#username').val(),
+      password: $('#password').val()
+    };
+    $.ajax({
+      url: 'http://localhost/my/url',
+      data: data,
+      method: 'POST'
+    }).then(function (response) {
+      // Do stuff with the response, like add it to the page dynamically.
+      $('body').append(response);
+    }).catch(function (err) {
+      console.error(err);
+    });
+  });
+</script> -->
+
+
 </html>
