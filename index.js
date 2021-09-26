@@ -1,3 +1,6 @@
+
+//ANA SUCKS
+
 // this will allow us to import our variable
 require("dotenv").config();
 // the following lines are required to initialize a Notion client
